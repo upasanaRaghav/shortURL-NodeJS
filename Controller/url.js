@@ -1,4 +1,5 @@
 const shortid = require('shortid');
+
 async function handleGenerateNewShortURL(req,res){
 const body=req.body;
 if(!body.url){
